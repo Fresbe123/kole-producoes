@@ -1,0 +1,63 @@
+﻿@model IEnumerable<KoleProducoes.Web.ViewModels.UserViewModel>
+
+@{
+    ViewData["Title"] = "Usuários";
+    ViewData["ActiveMenu"] = "users";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>window.addEventListener('load', () => showToast('@TempData["Success"]'));</script>
+}
+@if (TempData["Error"] != null)
+{
+    <script>window.addEventListener('load', () => showToast('@TempData["Error"]', 'erro'));</script>
+}
+
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">Usuários do Sistema</div>
+        <a asp-action="Create" class="btn">+ Novo Usuário</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Perfil</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td style="font-weight:500">@user.FullName</td>
+                    <td style="color:var(--gray-light)">@user.Email</td>
+                    <td>
+                        @if (user.CurrentRole == "Administrator")
+                        {
+                            <span class="badge badge-green">Administrador</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-gray">Editor</span>
+                        }
+                    </td>
+                    <td style="text-align:right">
+                        <div style="display:flex;gap:8px;justify-content:flex-end">
+                            <a asp-action="Edit" asp-route-id="@user.Id" class="btn-outline">Editar</a>
+                            <form asp-action="Delete" asp-route-id="@user.Id" method="post"
+                                  onsubmit="return confirmarExclusao(this)">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-danger">Excluir</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

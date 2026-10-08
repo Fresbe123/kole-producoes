@@ -1,0 +1,99 @@
+﻿@model KoleProducoes.Web.ViewModels.ShowViewModel
+
+@{
+    ViewData["Title"] = "Editar Show";
+    ViewData["ActiveMenu"] = "shows";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="table-wrap" style="max-width:800px">
+    <div class="table-header">
+        <div class="section-heading">Editar Show</div>
+        <a asp-action="Index" class="btn-outline">← Voltar</a>
+    </div>
+
+    <div style="padding:24px">
+        <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+            @Html.AntiForgeryToken()
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+
+                <div class="form-group">
+                    <label asp-for="ArtistName">Nome do Artista</label>
+                    <input asp-for="ArtistName" />
+                    <span asp-validation-for="ArtistName" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ShowName">Nome do Show</label>
+                    <input asp-for="ShowName" />
+                    <span asp-validation-for="ShowName" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="DateTime">Data e Hora</label>
+                    <input asp-for="DateTime" type="datetime-local" />
+                    <span asp-validation-for="DateTime" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CategoryId">Categoria</label>
+                    <select asp-for="CategoryId" asp-items="Model.Categories">
+                        <option value="">Selecione...</option>
+                    </select>
+                    <span asp-validation-for="CategoryId" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Venue">Local</label>
+                    <input asp-for="Venue" />
+                    <span asp-validation-for="Venue" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="City">Cidade</label>
+                    <input asp-for="City" />
+                    <span asp-validation-for="City" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="StartingPrice">Preço a partir de (R$)</label>
+                    <input asp-for="StartingPrice" type="number" step="0.01" />
+                    <span asp-validation-for="StartingPrice" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Capacity">Capacidade</label>
+                    <input asp-for="Capacity" type="number" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Status">Status</label>
+                    <select asp-for="Status">
+                        <option value="1">Rascunho</option>
+                        <option value="2">Publicado</option>
+                        <option value="3">Encerrado</option>
+                        <option value="4">Destacado</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="TicketsLink">Link dos Ingressos</label>
+                    <input asp-for="TicketsLink" />
+                </div>
+
+                <div class="form-group" style="grid-column:1/-1">
+                    <label asp-for="Description">Descrição</label>
+                    <textarea asp-for="Description" rows="4"></textarea>
+                </div>
+
+            </div>
+
+            <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:24px;padding-top:20px;border-top:1px solid var(--border)">
+                <a asp-action="Index" class="btn-outline">Cancelar</a>
+                <button type="submit" class="btn">Salvar Alterações</button>
+            </div>
+
+        </form>
+    </div>
+</div>

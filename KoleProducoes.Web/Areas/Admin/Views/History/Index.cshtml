@@ -1,0 +1,235 @@
+﻿@{
+    ViewData["Title"] = "Histórico";
+    ViewData["ActiveMenu"] = "history";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+    var deletedShows = ViewData["DeletedShows"] as IEnumerable<KoleProducoes.Domain.Entities.Show>;
+    var deletedProducts = ViewData["DeletedProducts"] as IEnumerable<KoleProducoes.Domain.Entities.Product>;
+    var deletedCategories = ViewData["DeletedCategories"] as IEnumerable<KoleProducoes.Domain.Entities.Category>;
+    var deletedDJs = ViewData["DeletedDJs"] as IEnumerable<KoleProducoes.Domain.Entities.DJ>;
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>window.addEventListener('load', () => showToast('@TempData["Success"]'));</script>
+}
+
+<!-- SHOWS DELETADOS -->
+<div class="table-wrap" style="margin-bottom:20px">
+    <div class="table-header">
+        <div class="section-heading">Shows Excluídos</div>
+        <div style="font-size:0.75rem;color:var(--gray-light)">
+            @(deletedShows?.Count() ?? 0) registro(s)
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Artista / Show</th>
+                <th>Data do Show</th>
+                <th>Excluído em</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (deletedShows?.Any() == true)
+            {
+                @foreach (var show in deletedShows)
+                {
+                    <tr>
+                        <td>
+                            <div style="font-weight:500">@show.ArtistName</div>
+                            <div style="font-size:0.78rem;color:var(--gray-light)">@show.ShowName</div>
+                        </td>
+                        <td>@show.DateTime.ToString("dd/MM/yyyy")</td>
+                        <td style="color:var(--gray-light)">
+                            @show.DeletedAt?.ToString("dd/MM/yyyy HH:mm")
+                        </td>
+                        <td style="text-align:right">
+                            <form asp-action="RestoreShow" asp-route-id="@show.Id" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-outline" style="padding:5px 14px">
+                                    Restaurar
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" style="text-align:center;color:var(--gray-light);padding:24px">
+                        Nenhum show excluído.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- PRODUTOS DELETADOS -->
+<div class="table-wrap" style="margin-bottom:20px">
+    <div class="table-header">
+        <div class="section-heading">Produtos Excluídos</div>
+        <div style="font-size:0.75rem;color:var(--gray-light)">
+            @(deletedProducts?.Count() ?? 0) registro(s)
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Excluído em</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (deletedProducts?.Any() == true)
+            {
+                @foreach (var product in deletedProducts)
+                {
+                    <tr>
+                        <td style="font-weight:500">@product.Name</td>
+                        <td style="color:var(--gray-light)">
+                            @product.DeletedAt?.ToString("dd/MM/yyyy HH:mm")
+                        </td>
+                        <td style="text-align:right">
+                            <form asp-action="RestoreProduct" asp-route-id="@product.Id" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-outline" style="padding:5px 14px">
+                                    Restaurar
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3" style="text-align:center;color:var(--gray-light);padding:24px">
+                        Nenhum produto excluído.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- CATEGORIAS DELETADAS -->
+<div class="table-wrap" style="margin-bottom:20px">
+    <div class="table-header">
+        <div class="section-heading">Categorias Excluídas</div>
+        <div style="font-size:0.75rem;color:var(--gray-light)">
+            @(deletedCategories?.Count() ?? 0) registro(s)
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Excluído em</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (deletedCategories?.Any() == true)
+            {
+                @foreach (var category in deletedCategories)
+                {
+                    <tr>
+                        <td style="font-weight:500">@category.Name</td>
+                        <td>
+                            @switch (category.Type)
+                            {
+                                case KoleProducoes.Domain.Entities.CategoryType.Product:
+                                    <span class="badge badge-gray">Produto</span>
+                                    break;
+                                case KoleProducoes.Domain.Entities.CategoryType.Service:
+                                    <span class="badge badge-gray">Serviço</span>
+                                    break;
+                                case KoleProducoes.Domain.Entities.CategoryType.Hiring:
+                                    <span class="badge badge-gray">Contratação</span>
+                                    break;
+                            }
+                        </td>
+                        <td style="color:var(--gray-light)">
+                            @category.DeletedAt?.ToString("dd/MM/yyyy HH:mm")
+                        </td>
+                        <td style="text-align:right">
+                            <form asp-action="RestoreCategory" asp-route-id="@category.Id" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-outline" style="padding:5px 14px">
+                                    Restaurar
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" style="text-align:center;color:var(--gray-light);padding:24px">
+                        Nenhuma categoria excluída.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- DJs DELETADOS -->
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">DJs Excluídos</div>
+        <div style="font-size:0.75rem;color:var(--gray-light)">
+            @(deletedDJs?.Count() ?? 0) registro(s)
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Estilo Musical</th>
+                <th>Excluído em</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (deletedDJs?.Any() == true)
+            {
+                @foreach (var dj in deletedDJs)
+                {
+                    <tr>
+                        <td style="font-weight:500">@dj.Name</td>
+                        <td style="color:var(--gray-light)">
+                            @(string.IsNullOrEmpty(dj.MusicStyle) ? "—" : dj.MusicStyle)
+                        </td>
+                        <td style="color:var(--gray-light)">
+                            @dj.DeletedAt?.ToString("dd/MM/yyyy HH:mm")
+                        </td>
+                        <td style="text-align:right">
+                            <form asp-action="RestoreDJ" asp-route-id="@dj.Id" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-outline" style="padding:5px 14px">
+                                    Restaurar
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" style="text-align:center;color:var(--gray-light);padding:24px">
+                        Nenhum DJ excluído.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

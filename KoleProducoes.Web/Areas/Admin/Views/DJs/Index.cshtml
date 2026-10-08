@@ -1,0 +1,114 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.DJ>
+
+@{
+    ViewData["Title"] = "DJs";
+    ViewData["ActiveMenu"] = "djs";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>
+        window.addEventListener('load', () => showToast('@TempData["Success"]'));
+    </script>
+}
+
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">Todos os DJs</div>
+        <a asp-action="Create" class="btn">+ Novo DJ</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Estilo Musical</th>
+                <th>A partir de</th>
+                <th>Redes Sociais</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dj in Model)
+            {
+                <tr>
+                    <td style="font-weight:500">@dj.Name</td>
+                    <td style="color:var(--gray-light)">
+                        @(string.IsNullOrEmpty(dj.MusicStyle) ? "—" : dj.MusicStyle)
+                    </td>
+                    <td>
+                        @(dj.StartingPrice.HasValue
+                                            ? $"R$ {dj.StartingPrice:N2}"
+                                            : "—")
+                </td>
+                <td>
+                    <div style="display:flex;gap:8px">
+                        @if (!string.IsNullOrEmpty(dj.InstagramLink))
+                            {
+                                <a href="@dj.InstagramLink" target="_blank" class="topbar-link" title="Instagram">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" />
+                                        <circle cx="12" cy="12" r="4" />
+                                        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+                                    </svg>
+                                </a>
+                            }
+                            @if (!string.IsNullOrEmpty(dj.YouTubeLink))
+                            {
+                                <a href="@dj.YouTubeLink" target="_blank" class="topbar-link" title="YouTube">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                                        <polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02" />
+                                    </svg>
+                                </a>
+                            }
+                            @if (!string.IsNullOrEmpty(dj.SoundCloudLink))
+                            {
+                                <a href="@dj.SoundCloudLink" target="_blank" class="topbar-link" title="SoundCloud">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M9 18V7a3 3 0 0 1 6 0v1a4 4 0 1 1 0 8H5a3 3 0 0 1 0-6h1" />
+                                    </svg>
+                                </a>
+                            }
+                            @if (string.IsNullOrEmpty(dj.InstagramLink) && string.IsNullOrEmpty(dj.YouTubeLink) && string.IsNullOrEmpty(dj.SoundCloudLink))
+                            {
+                                <span style="color:var(--gray-light)">—</span>
+                            }
+                        </div>
+                    </td>
+                    <td>
+                        @if (dj.IsActive)
+                        {
+                            <span class="badge badge-green">Ativo</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-gray">Inativo</span>
+                        }
+                    </td>
+                    <td style="text-align:right">
+                        <div style="display:flex;gap:8px;justify-content:flex-end">
+                            <a asp-action="Edit" asp-route-id="@dj.Id" class="btn-outline">Editar</a>
+                            <form asp-action="Delete" asp-route-id="@dj.Id" method="post"
+                                  onsubmit="return confirmarExclusao(this)">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-danger">Excluir</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" style="text-align:center;color:var(--gray-light);padding:40px">
+                        Nenhum DJ cadastrado ainda.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

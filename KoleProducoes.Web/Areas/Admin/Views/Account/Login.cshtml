@@ -1,0 +1,65 @@
+﻿@model KoleProducoes.Web.ViewModels.LoginViewModel
+
+@{
+    // Sem layout — a tela de login é uma página isolada
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar — Kole Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/admin.css" />
+</head>
+<body>
+
+    <div class="login-screen">
+        <div class="login-box">
+
+            <div class="login-logo">KOLE <span>Produções</span></div>
+            <div class="login-sub">Painel Administrativo</div>
+
+            @* asp-action e asp-controller dizem para qual Controller/Action o form envia *@
+            <form asp-area="Admin" asp-controller="Account" asp-action="Login" method="post">
+
+                @* AntiForgeryToken gera um campo hidden com o token CSRF *@
+                @Html.AntiForgeryToken()
+
+                @* ValidationSummary exibe os erros do ModelState (ex: "E-mail ou senha incorretos") *@
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="login-error">
+                        @Html.ValidationSummary(false)
+                    </div>
+                }
+
+                <div class="login-group">
+                    @* asp-for liga o input à propriedade do ViewModel automaticamente *@
+                    @* Isso gera o name, id e value corretos *@
+                    <label asp-for="Email">E-mail</label>
+                    <input asp-for="Email" type="email" placeholder="seu@email.com" autocomplete="email" />
+                    <span asp-validation-for="Email" class="field-validation-error"></span>
+                </div>
+
+                <div class="login-group">
+                    <label asp-for="Password">Senha</label>
+                    <input asp-for="Password" type="password" placeholder="••••••••" autocomplete="current-password" />
+                    <span asp-validation-for="Password" class="field-validation-error"></span>
+                </div>
+
+                <div class="login-remember">
+                    <input asp-for="RememberMe" type="checkbox" id="rememberMe" />
+                    <label for="rememberMe">Permanecer conectado</label>
+                </div>
+
+                <button type="submit" class="login-btn">Entrar</button>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+﻿@model KoleProducoes.Web.ViewModels.DJViewModel
+
+@{
+    ViewData["Title"] = "Novo DJ";
+    ViewData["ActiveMenu"] = "djs";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="table-wrap" style="max-width:800px">
+    <div class="table-header">
+        <div class="section-heading">Novo DJ</div>
+        <a asp-action="Index" class="btn-outline">← Voltar</a>
+    </div>
+
+    <div style="padding:24px">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+
+                <div class="form-group" style="grid-column:1/-1">
+                    <label asp-for="Name">Nome do DJ</label>
+                    <input asp-for="Name" placeholder="Ex: DJ Alok" />
+                    <span asp-validation-for="Name" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="MusicStyle">Estilo Musical</label>
+                    <input asp-for="MusicStyle" placeholder="Ex: Eletrônico, House, Funk" />
+                    <span asp-validation-for="MusicStyle" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="StartingPrice">Valor a partir de (R$)</label>
+                    <input asp-for="StartingPrice" type="number" step="0.01" placeholder="0,00" />
+                    <span asp-validation-for="StartingPrice" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group" style="grid-column:1/-1">
+                    <label asp-for="Biography">Biografia</label>
+                    <textarea asp-for="Biography" rows="4" placeholder="Descreva o DJ..."></textarea>
+                    <span asp-validation-for="Biography" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group" style="grid-column:1/-1">
+                    <label asp-for="PhotoUrl">URL da Foto</label>
+                    <input asp-for="PhotoUrl" placeholder="https://..." />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="InstagramLink">Instagram</label>
+                    <input asp-for="InstagramLink" placeholder="https://instagram.com/..." />
+                    <span asp-validation-for="InstagramLink" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="YouTubeLink">YouTube</label>
+                    <input asp-for="YouTubeLink" placeholder="https://youtube.com/..." />
+                    <span asp-validation-for="YouTubeLink" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="SoundCloudLink">SoundCloud</label>
+                    <input asp-for="SoundCloudLink" placeholder="https://soundcloud.com/..." />
+                    <span asp-validation-for="SoundCloudLink" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group" style="flex-direction:row;align-items:center;gap:10px">
+                    <input asp-for="IsActive" type="checkbox" style="width:auto" />
+                    <label asp-for="IsActive" style="text-transform:none;letter-spacing:0;font-size:0.88rem">
+                        DJ ativo
+                    </label>
+                </div>
+
+            </div>
+
+            <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:24px;padding-top:20px;border-top:1px solid var(--border)">
+                <a asp-action="Index" class="btn-outline">Cancelar</a>
+                <button type="submit" class="btn">Salvar DJ</button>
+            </div>
+
+        </form>
+    </div>
+</div>

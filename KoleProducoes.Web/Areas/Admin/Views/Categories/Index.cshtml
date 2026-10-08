@@ -1,0 +1,105 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.Category>
+
+@{
+    ViewData["Title"] = "Categorias";
+    ViewData["ActiveMenu"] = "categories";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>
+        // Exibe o toast assim que a página carregar
+        window.addEventListener('load', () => showToast('@TempData["Success"]'));
+    </script>
+}
+
+@if (TempData["Error"] != null)
+{
+    <script>
+        window.addEventListener('load', () => showToast('@TempData["Error"]', 'erro'));
+    </script>
+}
+
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">Todas as Categorias</div>
+        @if (User.IsInRole("Administrator"))
+        {
+            <a asp-action="Create" class="btn">+ Nova Categoria</a>
+        }
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Tipo</th>
+                <th>Ordem</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <td>
+                        <div style="font-weight:500">@category.Name</div>
+                        @if (!string.IsNullOrEmpty(category.Description))
+                        {
+                            <div style="font-size:0.78rem;color:var(--gray-light)">@category.Description</div>
+                        }
+                    </td>
+                    <td>
+                        @switch (category.Type)
+                        {
+                            case KoleProducoes.Domain.Entities.CategoryType.Product:
+                                <span class="badge badge-gray">Produto</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.CategoryType.Service:
+                                <span class="badge badge-gray">Serviço</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.CategoryType.Hiring:
+                                <span class="badge badge-gray">Contratação</span>
+                                break;
+                        }
+                    </td>
+                    <td>@category.Order</td>
+                    <td>
+                        @if (category.IsActive)
+                        {
+                            <span class="badge badge-green">Ativa</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-red">Inativa</span>
+                        }
+                    </td>
+                    <td style="text-align:right">
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <div style="display:flex;gap:8px;justify-content:flex-end">
+                                <a asp-action="Edit" asp-route-id="@category.Id" class="btn-outline">Editar</a>
+                                <form asp-action="Delete" asp-route-id="@category.Id" method="post"
+                                      onsubmit="return confirmarExclusao(this)">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn-danger">Excluir</button>
+                                </form>
+                            </div>
+                        }
+                    </td>
+                </tr>
+            }
+
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="5" style="text-align:center;color:var(--gray-light);padding:40px">
+                        Nenhuma categoria cadastrada ainda.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

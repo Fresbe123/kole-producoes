@@ -1,0 +1,1236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neto\\KoleProducoes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\migrations\\koledbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\migrations\\koledbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\data\\koledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\data\\koledbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\history\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\history\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\historycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\shows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\shows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\shows\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\shows\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\shows\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\shows\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\models\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\models\\dashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\djservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\djservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\appointments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\appointments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\appointments\\slots.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\appointments\\slots.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\djviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\djviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\djs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\djs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\djs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\djs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\djs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\djs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\djscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\djscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\idjservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\idjservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\showservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\showservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\showscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\showscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\ishowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\ishowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoleProducoes/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\migrations\\20260709133418_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\migrations\\20260709133418_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\koleproducoes.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\koleproducoes.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\showimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\showimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\dj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\dj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\migrations\\20260929223820_addsoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\migrations\\20260929223820_addsoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 335,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
+              "RelativeToolTip": "KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-07T13:14:16.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KoleDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T13:13:39.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\HistoryController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\HistoryController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\HistoryController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\HistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T22:43:50.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20260929223820_AddSoftDelete.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\20260929223820_AddSoftDelete.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\20260929223820_AddSoftDelete.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\20260929223820_AddSoftDelete.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Migrations\\20260929223820_AddSoftDelete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T22:38:21.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T09:58:59.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T18:11:29.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KoleDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:01:37.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\History\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\History\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\History\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\History\\Index.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAowOoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T22:46:38.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:27:53.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T06:43:25.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAFkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-17T06:00:38.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:11:34.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:16:40.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:50:16.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Edit.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Edit.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwGIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-17T06:02:19.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Create.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Create.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-17T06:01:47.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T18:06:56.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\DashboardService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAADwvx4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T11:07:29.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T11:03:56.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardData.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Models\\DashboardData.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Models\\DashboardData.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Models\\DashboardData.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Models\\DashboardData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T11:13:02.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T18:08:22.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T11:04:50.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DJService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\DJService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\DJService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\DJService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\DJService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:14:30.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Program.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Program.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T09:36:38.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:50:54.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwEEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:50:43.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAuwAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:49:14.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\UserViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:48:31.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:47:44.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:47:24.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:19:25.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:18:18.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppointmentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\AppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\AppointmentViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\AppointmentViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\AppointmentViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:16:32.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Details.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Details.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Details.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:19:47.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DJViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\DJViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\DJViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\DJViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\DJViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:15:54.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "ViewState": "AgIAAMICAAAAAAAAAAAAAOkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-14T17:36:29.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Slots.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Slots.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Slots.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Slots.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Slots.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAUwJgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:20:03.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T17:31:47.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T06:39:18.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ShowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\ShowViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\ShowViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\ShowViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\ShowViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA0wCcAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:55:19.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:07:06.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:05:29.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Edit.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwFMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T06:17:43.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Index.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAUwHEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T06:17:25.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DJsController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\DJsController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\DJsController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\DJsController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\DJsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:16:44.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Create.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Create.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwFMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T06:17:56.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IDJService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IDJService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IDJService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IDJService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Interfaces\\IDJService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:55:01.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T06:49:48.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T06:49:19.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwFgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-29T06:48:50.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T06:35:31.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T06:26:58.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwG0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:48:00.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ShowService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ShowService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\ShowService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ShowService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\ShowService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:49:42.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwGgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:55:21.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:57:17.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:56:28.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\CategoryViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:40:53.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ShowsController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\ShowsController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\ShowsController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\ShowsController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\ShowsController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAApwGUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:58:34.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IShowService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IShowService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IShowService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IShowService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Interfaces\\IShowService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:45:09.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Show.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Show.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Show.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\Show.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:14:25.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T18:53:47.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T18:52:34.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T18:52:33.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-14T17:33:58.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoleProducoes/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoleProducoes/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-14T18:19:26.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20260709133418_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\20260709133418_InitialCreate.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\20260709133418_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\20260709133418_InitialCreate.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Migrations\\20260709133418_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T13:34:19.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\appsettings.json",
+              "RelativeToolTip": "KoleProducoes.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-08T17:22:00.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T16:57:28.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\SeedData.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:12:24.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "KoleProducoes.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\KoleProducoes.Web.csproj",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\KoleProducoes.Web.csproj",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\KoleProducoes.Web.csproj",
+              "RelativeToolTip": "KoleProducoes.Web\\KoleProducoes.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-01T09:33:36.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Appointment.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:15:13.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ShowImage.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\ShowImage.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\ShowImage.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\ShowImage.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\ShowImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:14:36.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:14:13.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DJ.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\DJ.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\DJ.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\DJ.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\DJ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:14:47.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:14:57.58Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

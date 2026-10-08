@@ -1,0 +1,127 @@
+﻿@model KoleProducoes.Web.ViewModels.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+    ViewData["ActiveMenu"] = "dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="kpi-grid" style="margin-bottom:28px">
+    <div class="kpi-card">
+        <div class="kpi-label">Shows Cadastrados</div>
+        <div class="kpi-value">@Model.TotalShows</div>
+        <div class="kpi-sub">@Model.PublishedShows publicados</div>
+    </div>
+    <div class="kpi-card">
+        <div class="kpi-label">Produtos</div>
+        <div class="kpi-value">@Model.TotalProducts</div>
+        <div class="kpi-sub">Para locação</div>
+    </div>
+    <div class="kpi-card">
+        <div class="kpi-label">DJs Ativos</div>
+        <div class="kpi-value">@Model.TotalDJs</div>
+        <div class="kpi-sub">Disponíveis para contratação</div>
+    </div>
+    <div class="kpi-card">
+        <div class="kpi-label">Agendamentos Pendentes</div>
+        <div class="kpi-value" style="@(Model.PendingAppointments > 0 ? "color:var(--yellow)" : "")">
+            @Model.PendingAppointments
+        </div>
+        <div class="kpi-sub">de @Model.TotalAppointments no total</div>
+    </div>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+
+    <div class="table-wrap">
+        <div class="table-header">
+            <div class="section-heading">Agendamentos Recentes</div>
+            <a asp-area="Admin" asp-controller="Appointments" asp-action="Index"
+               style="font-size:0.75rem;color:var(--gray-light);text-decoration:none">
+                Ver todos →
+            </a>
+        </div>
+
+        @if (Model.RecentAppointments.Any())
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Data</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var appointment in Model.RecentAppointments)
+                    {
+                        <tr>
+                            <td>
+                                <div style="font-weight:500">@appointment.ClientName</div>
+                                <div style="font-size:0.75rem;color:var(--gray-light)">@appointment.Email</div>
+                            </td>
+                            <td style="font-size:0.82rem">
+                                @appointment.RequestedDateTime.ToString("dd/MM/yyyy")
+                            </td>
+                            <td>
+                                <span class="badge @appointment.StatusClass">@appointment.Status</span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div style="padding:32px;text-align:center;color:var(--gray-light)">
+                Nenhum agendamento ainda.
+            </div>
+        }
+    </div>
+
+    <div class="table-wrap">
+        <div class="table-header">
+            <div class="section-heading">Próximos Shows</div>
+            <a asp-area="Admin" asp-controller="Shows" asp-action="Index"
+               style="font-size:0.75rem;color:var(--gray-light);text-decoration:none">
+                Ver todos →
+            </a>
+        </div>
+
+        @if (Model.UpcomingShows.Any())
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Artista</th>
+                        <th>Data</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var show in Model.UpcomingShows)
+                    {
+                        <tr>
+                            <td>
+                                <div style="font-weight:500">@show.ArtistName</div>
+                                <div style="font-size:0.75rem;color:var(--gray-light)">@show.City</div>
+                            </td>
+                            <td style="font-size:0.82rem">
+                                @show.DateTime.ToString("dd/MM/yyyy")
+                            </td>
+                            <td>
+                                <span class="badge @show.StatusClass">@show.Status</span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div style="padding:32px;text-align:center;color:var(--gray-light)">
+                Nenhum show publicado próximo.
+            </div>
+        }
+    </div>
+</div>

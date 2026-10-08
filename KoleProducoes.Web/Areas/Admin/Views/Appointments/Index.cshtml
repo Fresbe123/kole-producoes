@@ -1,0 +1,92 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.Appointment>
+
+@{
+    ViewData["Title"] = "Agendamentos";
+    ViewData["ActiveMenu"] = "appointments";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>window.addEventListener('load', () => showToast('@TempData["Success"]'));</script>
+}
+
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">Todos os Agendamentos</div>
+        <a asp-action="Slots" class="btn-outline">Gerenciar Horários</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cliente</th>
+                <th>Interesse</th>
+                <th>Horário Solicitado</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var appointment in Model.OrderByDescending(a => a.CreatedAt))
+            {
+                <tr>
+                    <td>
+                        <div style="font-weight:500">@appointment.ClientName</div>
+                        <div style="font-size:0.78rem;color:var(--gray-light)">@appointment.Email</div>
+                        <div style="font-size:0.78rem;color:var(--gray-light)">@appointment.Phone</div>
+                    </td>
+                    <td>
+                        @switch (appointment.InterestType)
+                        {
+                            case KoleProducoes.Domain.Entities.InterestType.HireShow:
+                                <span>Contratar Show</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.InterestType.OrganizeEvent:
+                                <span>Organizar Evento</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.InterestType.CommercialPartnership:
+                                <span>Parceria Comercial</span>
+                                break;
+                            default:
+                                <span>Outro</span>
+                                break;
+                        }
+                    </td>
+                    <td>@appointment.RequestedDateTime.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        @switch (appointment.Status)
+                        {
+                            case KoleProducoes.Domain.Entities.AppointmentStatus.Pending:
+                                <span class="badge badge-yellow">Pendente</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.AppointmentStatus.Confirmed:
+                                <span class="badge badge-green">Confirmado</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.AppointmentStatus.Cancelled:
+                                <span class="badge badge-red">Cancelado</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.AppointmentStatus.Completed:
+                                <span class="badge badge-gray">Realizado</span>
+                                break;
+                        }
+                    </td>
+                    <td style="text-align:right">
+                        <a asp-action="Details" asp-route-id="@appointment.Id" class="btn-outline">
+                            Ver Detalhes
+                        </a>
+                    </td>
+                </tr>
+            }
+
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="5" style="text-align:center;color:var(--gray-light);padding:40px">
+                        Nenhum agendamento ainda.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

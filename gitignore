@@ -1,0 +1,26 @@
+# Build
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Arquivos sensíveis — NUNCA subir para o Git
+appsettings.Development.json
+appsettings.Production.json
+
+# Pacotes NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

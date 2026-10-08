@@ -1,0 +1,17 @@
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Application.deps.json
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Application.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Application.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Domain.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Infrastructure.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Domain.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\bin\Debug\net8.0\KoleProducoes.Infrastructure.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.csproj.AssemblyReference.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.AssemblyInfoInputs.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.AssemblyInfo.cs
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.csproj.CoreCompileInputs.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProd.53B7C47E.Up2Date
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\refint\KoleProducoes.Application.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\ref\KoleProducoes.Application.dll

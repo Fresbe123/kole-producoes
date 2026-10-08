@@ -1,0 +1,89 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.Product>
+
+@{
+    ViewData["Title"] = "Produtos";
+    ViewData["ActiveMenu"] = "products";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>
+        window.addEventListener('load', () => showToast('@TempData["Success"]'));
+    </script>
+}
+
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">Todos os Produtos</div>
+        <a asp-action="Create" class="btn">+ Novo Produto</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Diária</th>
+                <th>Estoque</th>
+                <th>Disponível</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td style="font-weight:500">@product.Name</td>
+                    <td style="color:var(--gray-light)">@product.Category?.Name</td>
+                    <td>
+                        @(product.DailyRate.HasValue
+                                            ? $"R$ {product.DailyRate:N2}"
+                                            : "—")
+                </td>
+                <td>@product.StockQuantity</td>
+                <td>
+                    @if (product.IsAvailable)
+                        {
+                            <span class="badge badge-green">Sim</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-red">Não</span>
+                        }
+                    </td>
+                    <td>
+                        @if (product.IsActive)
+                        {
+                            <span class="badge badge-green">Ativo</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-gray">Inativo</span>
+                        }
+                    </td>
+                    <td style="text-align:right">
+                        <div style="display:flex;gap:8px;justify-content:flex-end">
+                            <a asp-action="Edit" asp-route-id="@product.Id" class="btn-outline">Editar</a>
+                            <form asp-action="Delete" asp-route-id="@product.Id" method="post"
+                                  onsubmit="return confirmarExclusao(this)">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn-danger">Excluir</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="7" style="text-align:center;color:var(--gray-light);padding:40px">
+                        Nenhum produto cadastrado ainda.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

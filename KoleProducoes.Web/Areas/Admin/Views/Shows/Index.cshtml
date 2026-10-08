@@ -1,0 +1,90 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.Show>
+
+@{
+    ViewData["Title"] = "Shows";
+    ViewData["ActiveMenu"] = "shows";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+@* TempData["Success"] carrega a mensagem de sucesso após redirect *@
+@if (TempData["Success"] != null)
+{
+    <div class="toast-auto">@TempData["Success"]</div>
+}
+
+<div class="table-wrap">
+    <div class="table-header">
+        <div class="section-heading">Todos os Shows</div>
+        <a asp-action="Create" class="btn">+ Novo Show</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Artista / Show</th>
+                <th>Data</th>
+                <th>Local</th>
+                <th>Status</th>
+                <th>Preço</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var show in Model)
+            {
+                <tr>
+                    <td>
+                        <div style="font-weight:500">@show.ArtistName</div>
+                        <div style="font-size:0.78rem;color:var(--gray-light)">@show.ShowName</div>
+                    </td>
+                    <td>@show.DateTime.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        <div>@show.Venue</div>
+                        <div style="font-size:0.78rem;color:var(--gray-light)">@show.City</div>
+                    </td>
+                    <td>
+                        @switch (show.Status)
+                        {
+                            case KoleProducoes.Domain.Entities.ShowStatus.Published:
+                                <span class="badge badge-green">Publicado</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.ShowStatus.Featured:
+                                <span class="badge badge-green">Destacado</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.ShowStatus.Draft:
+                                <span class="badge badge-gray">Rascunho</span>
+                                break;
+                            case KoleProducoes.Domain.Entities.ShowStatus.Closed:
+                                <span class="badge badge-yellow">Encerrado</span>
+                                break;
+                        }
+                </td>
+                <td>
+                    @(show.StartingPrice.HasValue
+                                        ? $"R$ {show.StartingPrice:N2}"
+                                        : "—")
+                </td>
+                <td style="text-align:right">
+                    <div style="display:flex;gap:8px;justify-content:flex-end">
+                        <a asp-action="Edit" asp-route-id="@show.Id" class="btn-outline">Editar</a>
+                        <form asp-action="Delete" asp-route-id="@show.Id" method="post"
+                              onsubmit="return confirmarExclusao(this)">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn-danger">Excluir</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+                        }
+
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" style="text-align:center;color:var(--gray-light);padding:40px">
+                        Nenhum show cadastrado ainda.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

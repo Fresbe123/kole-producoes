@@ -1,0 +1,17 @@
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\bin\Debug\net8.0\KoleProducoes.Infrastructure.deps.json
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\bin\Debug\net8.0\KoleProducoes.Infrastructure.runtimeconfig.json
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\bin\Debug\net8.0\KoleProducoes.Infrastructure.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\bin\Debug\net8.0\KoleProducoes.Infrastructure.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\bin\Debug\net8.0\KoleProducoes.Domain.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\bin\Debug\net8.0\KoleProducoes.Domain.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.AssemblyInfo.cs
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProd.851BA8B1.Up2Date
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\refint\KoleProducoes.Infrastructure.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.pdb
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\KoleProducoes.Infrastructure.genruntimeconfig.cache
+C:\Users\Neto\KoleProducoes\KoleProducoes.Infrastructure\obj\Debug\net8.0\ref\KoleProducoes.Infrastructure.dll

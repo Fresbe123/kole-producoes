@@ -1,0 +1,165 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.AvailableSlot>
+
+@{
+    ViewData["Title"] = "Horários Disponíveis";
+    ViewData["ActiveMenu"] = "appointments";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+    var grouped = ViewData["GroupedSlots"] as Dictionary<DateTime, List<KoleProducoes.Domain.Entities.AvailableSlot>>;
+}
+
+@if (TempData["Success"] != null)
+{
+    <script>window.addEventListener('load', () => showToast('@TempData["Success"]'));</script>
+}
+@if (TempData["Error"] != null)
+{
+    <script>window.addEventListener('load', () => showToast('@TempData["Error"]', 'erro'));</script>
+}
+
+<div style="display:grid;grid-template-columns:300px 1fr;gap:20px;align-items:start">
+
+    <!-- ADICIONAR HORÁRIO -->
+    <div class="table-wrap">
+        <div class="table-header">
+            <div class="section-heading">Novo Horário</div>
+        </div>
+        <div style="padding:20px">
+            <form asp-action="CreateSlot" method="post">
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label>Data e Hora</label>
+                    <input type="datetime-local" name="DateTime" required />
+                </div>
+                <button type="submit" class="btn" style="width:100%">Adicionar Horário</button>
+            </form>
+        </div>
+
+        <!-- LEGENDA -->
+        <div style="padding:0 20px 20px;display:flex;flex-direction:column;gap:8px">
+            <div class="section-heading" style="margin-bottom:4px">Legenda</div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.8rem;color:var(--gray-lighter)">
+                <span class="badge badge-green">Disponível</span>
+                Ativo e livre para agendamento
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.8rem;color:var(--gray-lighter)">
+                <span class="badge badge-yellow">Ocupado</span>
+                Já possui agendamento vinculado
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.8rem;color:var(--gray-lighter)">
+                <span class="badge badge-gray">Desativado</span>
+                Não aparece para clientes
+            </div>
+        </div>
+    </div>
+
+    <!-- LISTA DE SLOTS AGRUPADOS POR DATA -->
+    <div style="display:flex;flex-direction:column;gap:16px">
+        @if (grouped != null && grouped.Any())
+        {
+            @foreach (var day in grouped)
+            {
+                <div class="table-wrap">
+                    <div class="table-header">
+                        <div class="section-heading">
+                            @day.Key.ToString("dddd, dd 'de' MMMM 'de' yyyy",
+                            new System.Globalization.CultureInfo("pt-BR"))
+                </div>
+                <div style="font-size:0.75rem;color:var(--gray-light)">
+                    @day.Value.Count(s => !s.IsBooked && s.IsActive) disponível(is) ·
+                    @day.Value.Count(s => s.IsBooked) ocupado(s)
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Status</th>
+                        <th>Observação</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var slot in day.Value.OrderBy(s => s.DateTime))
+                            {
+                                <tr>
+                                    <td style="font-weight:500">@slot.DateTime.ToString("HH:mm")</td>
+                                    <td>
+                                        @if (slot.IsBooked)
+                                        {
+                                            <span class="badge badge-yellow">Ocupado</span>
+                                        }
+                                        else if (slot.IsActive)
+                                        {
+                                            <span class="badge badge-green">Disponível</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-gray">Desativado</span>
+                                        }
+                                    </td>
+                                    <td style="font-size:0.78rem;color:var(--gray-light)">
+                                        @* Se ocupado, mostra aviso para o admin saber que tem agendamento vinculado *@
+                                        @if (slot.IsBooked)
+                                        {
+                                            <span style="color:var(--yellow)">
+                                                ⚠ Excluir irá cancelar o agendamento vinculado
+                                            </span>
+                                        }
+                                        else if (!slot.IsActive)
+                                        {
+                                            <span>Não visível para clientes</span>
+                                        }
+                                    </td>
+                                    <td style="text-align:right">
+                                        <div style="display:flex;gap:8px;justify-content:flex-end">
+
+                                            @* Botão de ativar/desativar — sempre visível *@
+                                            <form asp-action="ToggleSlot" asp-route-id="@slot.Id" method="post">
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn-outline" style="padding:5px 12px">
+                                                    @(slot.IsActive ? "Desativar" : "Ativar")
+                                                </button>
+                                            </form>
+
+                                            @* Botão de excluir — sempre visível, mas com confirmação extra se ocupado *@
+                                            <form asp-action="DeleteSlot" asp-route-id="@slot.Id" method="post"
+                                                  onsubmit="return confirmarExclusaoSlot(this, @slot.IsBooked.ToString().ToLower())">
+                                                @Html.AntiForgeryToken()
+                                                <button type="submit" class="btn-danger">Excluir</button>
+                                            </form>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="table-wrap">
+                <div style="text-align:center;color:var(--gray-light);padding:40px">
+                    Nenhum horário cadastrado ainda. Adicione horários no painel ao lado.
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function confirmarExclusaoSlot(form, isBooked) {
+            if (isBooked) {
+                return confirm(
+                    'Este horário possui um agendamento vinculado.\n\n' +
+                    'Ao excluir, o agendamento será cancelado automaticamente.\n\n' +
+                    'Deseja continuar?'
+                );
+            }
+            return confirm('Deseja excluir este horário?');
+        }
+    </script>
+}

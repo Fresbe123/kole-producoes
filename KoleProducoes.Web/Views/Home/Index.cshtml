@@ -1,8 +1,280 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model KoleProducoes.Web.ViewModels.HomeViewModel
+
+@{
+    ViewData["Title"] = "Kole Produções";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-lines"></div>
+
+    <div class="hero-eyebrow">Produção de Eventos</div>
+
+    <h1 class="hero-title">
+        Fazemos<br>
+        <em>acontecer</em><br>
+        ao vivo
+    </h1>
+
+    <p class="hero-sub">
+        Shows, estrutura e produção completa para eventos que ficam na memória.
+    </p>
+
+    <div class="hero-actions">
+        <a href="#proximos" class="btn-primary">Ver Próximos Shows</a>
+        <a href="#agendamento" class="btn-ghost">Agendar Reunião</a>
+    </div>
+
+    <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- PRÓXIMOS SHOWS -->
+<section id="proximos">
+    <div class="section-label">Agenda</div>
+    <h2 class="section-title">Próximos Shows</h2>
+
+    @if (Model.UpcomingShows.Any())
+    {
+        <div class="shows-grid">
+            @foreach (var show in Model.UpcomingShows)
+            {
+                <a asp-controller="Shows" asp-action="Details" asp-route-slug="@show.Slug"
+                   class="show-card @(show.Status == KoleProducoes.Domain.Entities.ShowStatus.Featured ? "destaque" : "") fade-up">
+
+                    <div class="show-tag">
+                        @if (show.Status == KoleProducoes.Domain.Entities.ShowStatus.Featured)
+                        {
+                            <div class="tag-dot"></div>
+                            <span>Destaque</span>
+                        }
+                        else
+                        {
+                            <span>@show.DateTime.ToString("MMM yyyy", new System.Globalization.CultureInfo("pt-BR")).ToUpper()</span>
+                        }
+                </div>
+
+                <div class="show-artist">@show.ArtistName</div>
+                <div class="show-name">@show.ShowName</div>
+
+                <div class="show-meta">
+                    <div class="show-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="4" width="18" height="18" rx="2" />
+                            <line x1="16" y1="2" x2="16" y2="6" />
+                            <line x1="8" y1="2" x2="8" y2="6" />
+                            <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                        @show.DateTime.ToString("dd 'de' MMMM 'de' yyyy", new System.Globalization.CultureInfo("pt-BR"))
+                    </div>
+                    <div class="show-meta-item">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        @show.Venue — @show.City
+                    </div>
+                </div>
+
+                <div class="show-footer">
+                    <div class="show-price">
+                        @(show.StartingPrice.HasValue
+                                            ? $"A partir de R$ {show.StartingPrice:N2}"
+                                            : "Consulte")
+                </div>
+                <span class="show-btn">Ver detalhes →</span>
+            </div>
+        </a>
+                }
+        </div>
+    }
+    else
+    {
+        <p style="color:var(--gray-light);text-align:center;padding:60px 0">
+            Novos shows em breve. Agende uma reunião para saber mais.
+        </p>
+    }
+</section>
+
+<!-- SHOWS REALIZADOS -->
+<section id="realizados">
+    <div class="section-label">Histórico</div>
+    <h2 class="section-title">Shows Realizados</h2>
+
+    <div class="realizados-list">
+        @foreach (var show in Model.PastShows)
+        {
+            <div class="realizado-item fade-up">
+                <div class="realizado-date">
+                    <div class="day">@show.DateTime.ToString("dd")</div>
+                    <div class="month">@show.DateTime.ToString("MMM", new System.Globalization.CultureInfo("pt-BR"))</div>
+                </div>
+                <div>
+                    <div class="realizado-artist">@show.ArtistName</div>
+                    <div class="realizado-local">@show.ShowName — @show.Venue, @show.City</div>
+                </div>
+                <div class="realizado-badge">Realizado</div>
+            </div>
+        }
+
+        @if (!Model.PastShows.Any())
+        {
+            <p style="color:var(--gray-light);padding:40px 0">Nenhum show realizado ainda.</p>
+        }
+    </div>
+</section>
+
+<!-- AGENDAMENTO -->
+<section id="agendamento">
+    <div class="agendamento-wrap">
+        <div>
+            <div class="section-label">Contato</div>
+            <h2 class="section-title">Agende uma<br>Reunião Comercial</h2>
+
+            <p class="agendamento-desc">
+                Tem um evento em mente? Vamos conversar. Nossa equipe está pronta
+                para criar a experiência perfeita para o seu público.
+            </p>
+
+            <div class="agendamento-pontos">
+                <div class="ponto">
+                    <div class="ponto-num">1</div>
+                    <div class="ponto-text">
+                        <strong>Escolha um horário</strong>
+                        Selecione o melhor momento para uma conversa com nossa equipe.
+                    </div>
+                </div>
+                <div class="ponto">
+                    <div class="ponto-num">2</div>
+                    <div class="ponto-text">
+                        <strong>Conte seu projeto</strong>
+                        Nos diga sobre o evento, público esperado e sua visão.
+                    </div>
+                </div>
+                <div class="ponto">
+                    <div class="ponto-num">3</div>
+                    <div class="ponto-text">
+                        <strong>Receba a proposta</strong>
+                        Montamos uma proposta personalizada para o seu evento.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <div class="agendamento-form fade-up">
+            <div class="form-title">Solicitar Reunião</div>
+
+            @if (TempData["AppointmentSuccess"] != null)
+            {
+                <div class="success-msg show">
+                    <p>✓ Solicitação enviada! Entraremos em contato em breve.</p>
+                </div>
+            }
+
+            @if (TempData["AppointmentError"] != null)
+            {
+                <div class="success-msg show" style="border-color:rgba(248,113,113,0.3)">
+                    <p style="color:#f87171">@TempData["AppointmentError"]</p>
+                </div>
+            }
+
+            <form asp-controller="Appointment" asp-action="Create" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="site-label">Nome Completo</label>
+                        <input class="site-input" name="ClientName" placeholder="Seu nome" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="site-label">Telefone</label>
+                        <input class="site-input" name="Phone" placeholder="(27) 99999-9999" required />
+                    </div>
+                    <div class="form-group full">
+                        <label class="site-label">E-mail</label>
+                        <input class="site-input" type="email" name="Email" placeholder="seu@email.com" required />
+                    </div>
+                    <div class="form-group full">
+                        <label class="site-label">Tipo de Interesse</label>
+                        <select class="site-select" name="InterestType">
+                            <option value="1">Contratar um show</option>
+                            <option value="2">Organizar evento</option>
+                            <option value="3">Parceria comercial</option>
+                            <option value="4">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group full">
+                        <label class="site-label">Mensagem</label>
+                        <textarea class="site-textarea" name="Message" placeholder="Conte um pouco sobre seu projeto..."></textarea>
+                    </div>
+                </div>
+
+                <input type="hidden" name="AvailableSlotId" id="selectedSlot" value="" />
+
+                @if (Model.AvailableSlots.Any())
+                {
+                    <div style="margin-bottom:20px">
+                        <span class="slots-label">Escolha um Horário Disponível</span>
+                        <div class="slots-grid">
+                            @foreach (var slot in Model.AvailableSlots)
+                            {
+                                <button type="button" class="slot"
+                                        onclick="selectSlot(this, @slot.Id)">
+                                    @slot.DateTime.ToString("dd/MM")<br>
+                                    <small>@slot.DateTime.ToString("HH:mm")</small>
+                                </button>
+                            }
+                        </div>
+                    </div>
+                }
+
+                <button type="submit" class="btn-submit">Enviar Solicitação</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+    <div class="sobre-wrap">
+        <div class="sobre-text fade-up">
+            <div class="section-label">Sobre Nós</div>
+            <h2 class="section-title">Produção com<br>propósito</h2>
+            <p>
+                A Kole Produções nasceu da paixão por eventos que transformam. Combinamos
+                estrutura técnica de ponta com uma curadoria artística criteriosa para
+                entregar experiências únicas.
+            </p>
+            <p>
+                Da locação de equipamentos à produção completa de shows, somos o parceiro
+                que o seu evento precisa.
+            </p>
+            <div style="margin-top:32px">
+                <a asp-controller="Appointment" asp-action="Index" class="btn-primary">
+                    Fale com a gente
+                </a>
+            </div>
+        </div>
+
+        <div class="sobre-stats fade-up">
+            <div class="stat">
+                <div class="stat-num">+200</div>
+                <div class="stat-label">Eventos Realizados</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">8</div>
+                <div class="stat-label">Anos de Experiência</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">+50</div>
+                <div class="stat-label">Artistas Parceiros</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">ES</div>
+                <div class="stat-label">Espírito Santo</div>
+            </div>
+        </div>
+    </div>
+</section>

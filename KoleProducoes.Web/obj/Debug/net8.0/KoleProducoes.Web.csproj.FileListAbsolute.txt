@@ -142,3 +142,4 @@ C:\Users\Neto\KoleProducoes\KoleProducoes.Web\obj\Debug\net8.0\refint\KoleProduc
 C:\Users\Neto\KoleProducoes\KoleProducoes.Web\obj\Debug\net8.0\KoleProducoes.Web.pdb
 C:\Users\Neto\KoleProducoes\KoleProducoes.Web\obj\Debug\net8.0\KoleProducoes.Web.genruntimeconfig.cache
 C:\Users\Neto\KoleProducoes\KoleProducoes.Web\obj\Debug\net8.0\ref\KoleProducoes.Web.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Web\obj\Debug\net8.0\KoleProducoes.Web.sourcelink.json

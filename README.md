@@ -79,7 +79,7 @@ KoleProducoes/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/SEU_USUARIO/kole-producoes.git
+git clone https://github.com/Fresbe123/kole-producoes.git
 cd kole-producoes
 ```
 

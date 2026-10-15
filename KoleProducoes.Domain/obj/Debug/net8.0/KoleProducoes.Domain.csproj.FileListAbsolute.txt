@@ -9,3 +9,4 @@ C:\Users\Neto\KoleProducoes\KoleProducoes.Domain\obj\Debug\net8.0\KoleProducoes.
 C:\Users\Neto\KoleProducoes\KoleProducoes.Domain\obj\Debug\net8.0\refint\KoleProducoes.Domain.dll
 C:\Users\Neto\KoleProducoes\KoleProducoes.Domain\obj\Debug\net8.0\KoleProducoes.Domain.pdb
 C:\Users\Neto\KoleProducoes\KoleProducoes.Domain\obj\Debug\net8.0\ref\KoleProducoes.Domain.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Domain\obj\Debug\net8.0\KoleProducoes.Domain.sourcelink.json

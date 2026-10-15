@@ -20,4 +20,6 @@ public interface IRepository<T> where T : BaseEntity
     Task<T?> GetByIdWithIncludesAsync(int id, params Expression<Func<T, object>>[] includes);
     Task<IEnumerable<T>> GetDeletedAsync();
     Task RestoreAsync(int id);
+    Task<IEnumerable<T>> GetAllWithIncludesAsync(
+    params Expression<Func<T, object>>[] includes);
 }

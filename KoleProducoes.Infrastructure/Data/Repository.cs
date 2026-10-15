@@ -84,4 +84,15 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public async Task<bool> ExistsAsync(int id)
         => await _dbSet.AnyAsync(e => e.Id == id);
+
+    public async Task<IEnumerable<T>> GetAllWithIncludesAsync(
+    params Expression<Func<T, object>>[] includes)
+    {
+        IQueryable<T> query = _dbSet;
+        foreach (var include in includes)
+            query = query.Include(include);
+        return await query.ToListAsync();
+    }
+
+
 }

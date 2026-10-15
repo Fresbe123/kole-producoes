@@ -3,6 +3,66 @@
   "WorkspaceRootPath": "C:\\Users\\Neto\\KoleProducoes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\shows\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\shows\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\shows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\shows\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\shows\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\shows\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\showservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\showservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\controllers\\showscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\controllers\\showscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\bin\\debug\\net8.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -29,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|solutionrelative:koleproducoes.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.infrastructure\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBFE3D85-5209-40AA-8D38-7329528E0786}|KoleProducoes.Infrastructure\\KoleProducoes.Infrastructure.csproj|solutionrelative:koleproducoes.infrastructure\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE8A3893-B9FB-4106-A420-347D654EB5B4}|KoleProducoes.Domain\\KoleProducoes.Domain.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,10 +171,6 @@
       "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.web\\areas\\admin\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBCD1168-3096-4AFB-B60E-D0CC60285457}|KoleProducoes.Web\\KoleProducoes.Web.csproj|solutionrelative:koleproducoes.web\\areas\\admin\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -201,10 +249,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\services\\showservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|solutionrelative:koleproducoes.application\\services\\showservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87548176-D145-414B-9C33-47148F1B21CB}|KoleProducoes.Application\\KoleProducoes.Application.csproj|c:\\users\\neto\\koleproducoes\\koleproducoes.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -313,11 +357,189 @@
       "DocumentGroups": [
         {
           "DockedWidth": 335,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shows\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\Shows\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shows\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\Shows\\Index.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowH0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-14T09:53:09.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "KoleProducoes.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAALMDAAAAAAAAAAAAALkDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-09T11:12:29.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\Repository.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T17:11:34.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "KoleProducoes.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T10:16:40.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowService.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ShowService.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\ShowService.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ShowService.cs",
+              "RelativeToolTip": "KoleProducoes.Application\\Services\\ShowService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-17T05:49:42.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shows\\History.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\Shows\\History.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shows\\History.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\Shows\\History.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-14T09:53:41.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shows\\Details.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\Shows\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shows\\Details.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\Shows\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-14T09:54:02.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T14:48:45.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAQwBcBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T14:49:09.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShowsController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Controllers\\ShowsController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Controllers\\ShowsController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Controllers\\ShowsController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Controllers\\ShowsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T09:51:38.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T14:48:18.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KoleProducoes.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T14:47:27.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KoleProducoes.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwDgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T14:47:15.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "KoleProducoes.Web\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-09T11:13:03.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
@@ -325,25 +547,11 @@
               "RelativeToolTip": "KoleProducoes.Web\\bin\\Debug\\net8.0\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-07T13:14:16.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T13:14:16.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KoleDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
-              "RelativeToolTip": "KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T13:13:39.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "HistoryController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\HistoryController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\HistoryController.cs",
@@ -355,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 86,
               "Title": "20260929223820_AddSoftDelete.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\20260929223820_AddSoftDelete.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\20260929223820_AddSoftDelete.cs",
@@ -367,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\BaseEntity.cs",
@@ -379,7 +587,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "KoleProducoes.Web\\wwwroot\\css\\admin.css",
+              "ViewState": "AgIAAMgCAAAAAAAAAAAcwOkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-14T17:36:29.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KoleDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "RelativeToolTip": "KoleProducoes.Infrastructure\\Migrations\\KoleDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T13:13:39.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
@@ -387,12 +619,11 @@
               "RelativeToolTip": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-14T18:11:29.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-14T18:11:29.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "KoleDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
@@ -400,12 +631,11 @@
               "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\KoleDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T17:01:37.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T17:01:37.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\History\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\History\\Index.cshtml",
@@ -417,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\AccountController.cs",
@@ -429,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\ProductsController.cs",
@@ -441,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Index.cshtml",
@@ -453,31 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\Repository.cs",
-              "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\Repository.cs",
-              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\Repository.cs",
-              "RelativeToolTip": "KoleProducoes.Infrastructure\\Data\\Repository.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwDAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T17:11:34.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "KoleProducoes.Domain\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "KoleProducoes.Domain\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T10:16:40.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Index.cshtml",
@@ -489,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Edit.cshtml",
@@ -501,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Create.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Shows\\Create.cshtml",
@@ -513,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -525,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\DashboardService.cs",
@@ -537,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IDashboardService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IDashboardService.cs",
@@ -549,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "DashboardData.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Models\\DashboardData.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Models\\DashboardData.cs",
@@ -561,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -573,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\DashboardViewModel.cs",
@@ -585,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "DJService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\DJService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\DJService.cs",
@@ -597,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Program.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Program.cs",
@@ -609,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 36,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
@@ -621,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Users\\Create.cshtml",
@@ -633,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
@@ -645,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\UserViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\UserViewModel.cs",
@@ -657,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\UserService.cs",
@@ -669,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IUserService.cs",
@@ -681,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 44,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Index.cshtml",
@@ -693,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\AppointmentsController.cs",
@@ -705,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "AppointmentViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\AppointmentViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\AppointmentViewModel.cs",
@@ -717,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Details.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Details.cshtml",
@@ -729,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 50,
               "Title": "DJViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\DJViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\DJViewModel.cs",
@@ -741,19 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "admin.css",
-              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\admin.css",
-              "RelativeDocumentMoniker": "KoleProducoes.Web\\wwwroot\\css\\admin.css",
-              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\wwwroot\\css\\admin.css",
-              "RelativeToolTip": "KoleProducoes.Web\\wwwroot\\css\\admin.css",
-              "ViewState": "AgIAAMICAAAAAAAAAAAAAOkCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-14T17:36:29.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 46,
               "Title": "Slots.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Slots.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Appointments\\Slots.cshtml",
@@ -765,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 49,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\LoginViewModel.cs",
@@ -777,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 48,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\ProductViewModel.cs",
@@ -789,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 47,
               "Title": "ShowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\ShowViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\ShowViewModel.cs",
@@ -801,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 51,
               "Title": "AppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\AppointmentService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\AppointmentService.cs",
@@ -813,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "IAppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IAppointmentService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IAppointmentService.cs",
@@ -825,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Edit.cshtml",
@@ -837,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Index.cshtml",
@@ -849,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 56,
               "Title": "DJsController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\DJsController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\DJsController.cs",
@@ -861,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Create.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\DJs\\Create.cshtml",
@@ -873,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 57,
               "Title": "IDJService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IDJService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IDJService.cs",
@@ -885,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 58,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Edit.cshtml",
@@ -897,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 59,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Create.cshtml",
@@ -909,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Products\\Index.cshtml",
@@ -921,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\ProductService.cs",
@@ -933,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 62,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IProductService.cs",
@@ -945,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 65,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
@@ -957,19 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ShowService.cs",
-              "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ShowService.cs",
-              "RelativeDocumentMoniker": "KoleProducoes.Application\\Services\\ShowService.cs",
-              "ToolTip": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Services\\ShowService.cs",
-              "RelativeToolTip": "KoleProducoes.Application\\Services\\ShowService.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-17T05:49:42.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 64,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
@@ -981,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 63,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
@@ -993,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 66,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
@@ -1005,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 67,
               "Title": "CategoryViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\ViewModels\\CategoryViewModel.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\ViewModels\\CategoryViewModel.cs",
@@ -1017,7 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 68,
               "Title": "ShowsController.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Controllers\\ShowsController.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Controllers\\ShowsController.cs",
@@ -1029,7 +1211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 70,
               "Title": "IShowService.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Application\\Interfaces\\IShowService.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Application\\Interfaces\\IShowService.cs",
@@ -1041,7 +1223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 69,
               "Title": "Show.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Show.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Show.cs",
@@ -1053,7 +1235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 71,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1065,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 72,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\_ViewImports.cshtml",
@@ -1077,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 73,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Views\\_ViewStart.cshtml",
@@ -1089,7 +1271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 74,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\Areas\\Admin\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\Areas\\Admin\\Views\\Account\\Login.cshtml",
@@ -1101,7 +1283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 75,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoleProducoes/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoleProducoes/True/SqlTable/dbo.AspNetUsers.sql",
@@ -1110,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 76,
               "Title": "20260709133418_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Migrations\\20260709133418_InitialCreate.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Migrations\\20260709133418_InitialCreate.cs",
@@ -1122,7 +1304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 78,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\appsettings.json",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\appsettings.json",
@@ -1134,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 77,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\ApplicationUser.cs",
@@ -1146,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 79,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Infrastructure\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Infrastructure\\Data\\SeedData.cs",
@@ -1158,7 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 80,
               "Title": "KoleProducoes.Web.csproj",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Web\\KoleProducoes.Web.csproj",
               "RelativeDocumentMoniker": "KoleProducoes.Web\\KoleProducoes.Web.csproj",
@@ -1170,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 81,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Appointment.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Appointment.cs",
@@ -1182,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 82,
               "Title": "ShowImage.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\ShowImage.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\ShowImage.cs",
@@ -1194,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 83,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Category.cs",
@@ -1206,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 84,
               "Title": "DJ.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\DJ.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\DJ.cs",
@@ -1218,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 85,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Neto\\KoleProducoes\\KoleProducoes.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "KoleProducoes.Domain\\Entities\\Product.cs",

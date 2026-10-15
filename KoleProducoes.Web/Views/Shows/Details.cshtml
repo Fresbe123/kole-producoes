@@ -1,0 +1,148 @@
+﻿@model KoleProducoes.Domain.Entities.Show
+
+@{
+    ViewData["Title"] = $"{Model.ArtistName} — {Model.ShowName}";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- HERO DO SHOW -->
+<section class="hero" style="min-height:70vh">
+    <div class="hero-bg"></div>
+    <div class="hero-lines"></div>
+
+    <div class="hero-eyebrow">
+        @if (Model.Category != null)
+        {
+            <span>@Model.Category.Name</span>
+            <span style="opacity:0.3">—</span>
+        }
+        @Model.DateTime.ToString("dd 'de' MMMM 'de' yyyy",
+        new System.Globalization.CultureInfo("pt-BR"))
+    </div>
+
+    <h1 class="hero-title" style="font-size:clamp(2.5rem,7vw,6rem)">
+        @Model.ArtistName
+    </h1>
+
+    <p style="font-size:1.1rem;color:var(--gray-light);margin-top:12px;position:relative;z-index:2">
+        @Model.ShowName
+    </p>
+
+    <div class="hero-actions">
+        @if (!string.IsNullOrEmpty(Model.TicketsLink))
+        {
+            <a href="@Model.TicketsLink" target="_blank" class="btn-primary">
+                Comprar Ingressos
+            </a>
+        }
+        <a asp-controller="Shows" asp-action="Index" class="btn-ghost">
+            ← Ver todos os shows
+        </a>
+    </div>
+</section>
+
+<!-- INFORMAÇÕES DO SHOW -->
+<section style="background:var(--gray-dark)">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start">
+
+        <div class="fade-up">
+            <div class="section-label">Sobre o Show</div>
+            @if (!string.IsNullOrEmpty(Model.Description))
+            {
+                <p style="font-size:0.95rem;color:var(--gray-light);line-height:1.9">
+                    @Model.Description
+                </p>
+            }
+            else
+            {
+                <p style="color:var(--gray-light)">Informações em breve.</p>
+            }
+        </div>
+
+        <div class="fade-up">
+            <div class="section-label">Informações</div>
+            <div style="display:flex;flex-direction:column;gap:16px">
+
+                <div style="border:1px solid var(--border);padding:24px">
+                    <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gray-light);margin-bottom:8px">
+                        Data e Hora
+                    </div>
+                    <div style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700">
+                        @Model.DateTime.ToString("dd 'de' MMMM 'de' yyyy",
+                        new System.Globalization.CultureInfo("pt-BR"))
+                    </div>
+                    <div style="color:var(--gray-light);margin-top:4px">
+                        @Model.DateTime.ToString("HH:mm") hrs
+                    </div>
+                </div>
+
+                <div style="border:1px solid var(--border);padding:24px">
+                    <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gray-light);margin-bottom:8px">
+                        Local
+                    </div>
+                    <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700">
+                        @Model.Venue
+                    </div>
+                    <div style="color:var(--gray-light);margin-top:4px">@Model.City</div>
+                </div>
+
+                @if (Model.Category != null)
+                {
+                    <div style="border:1px solid var(--border);padding:24px">
+                        <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gray-light);margin-bottom:8px">
+                            Gênero Musical
+                        </div>
+                        <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700">
+                            @Model.Category.Name
+                        </div>
+                    </div>
+                }
+
+                @if (Model.StartingPrice.HasValue)
+                {
+                    <div style="border:1px solid var(--border);padding:24px">
+                        <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gray-light);margin-bottom:8px">
+                            Ingressos
+                        </div>
+                        <div style="font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700">
+                            A partir de R$ @Model.StartingPrice.Value.ToString("N2")
+                        </div>
+                        @if (!string.IsNullOrEmpty(Model.TicketsLink))
+                        {
+                            <a href="@Model.TicketsLink" target="_blank" class="btn-primary"
+                               style="margin-top:16px;display:inline-block">
+                                Comprar Ingressos
+                            </a>
+                        }
+                    </div>
+                }
+
+                @if (Model.Capacity.HasValue)
+                {
+                    <div style="border:1px solid var(--border);padding:24px">
+                        <div style="font-family:'Barlow Condensed',sans-serif;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gray-light);margin-bottom:8px">
+                            Capacidade
+                        </div>
+                        <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700">
+                            @Model.Capacity.Value.ToString("N0") pessoas
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section style="background:var(--black);text-align:center">
+    <div class="section-label" style="justify-content:center">Produza com a gente</div>
+    <h2 style="font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,3rem);font-weight:700;margin-bottom:24px">
+        Quer realizar um evento como esse?
+    </h2>
+    <p style="color:var(--gray-light);margin-bottom:40px;max-width:500px;margin-left:auto;margin-right:auto;line-height:1.7">
+        Entre em contato com nossa equipe e vamos criar juntos a experiência perfeita para o seu público.
+    </p>
+    <a asp-controller="Appointment" asp-action="Index" class="btn-primary">
+        Agendar Reunião
+    </a>
+</section>

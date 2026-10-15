@@ -15,3 +15,4 @@ C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProdu
 C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\refint\KoleProducoes.Application.dll
 C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.pdb
 C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\ref\KoleProducoes.Application.dll
+C:\Users\Neto\KoleProducoes\KoleProducoes.Application\obj\Debug\net8.0\KoleProducoes.Application.sourcelink.json

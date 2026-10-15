@@ -20,7 +20,9 @@ public class ShowService : IShowService
     }
 
     public async Task<IEnumerable<Show>> GetAllAsync()
-        => await _showRepository.GetAllAsync();
+    => await _showRepository.GetAllWithIncludesAsync(
+        s => s.Category,
+        s => s.Images);
 
     public async Task<Show?> GetByIdAsync(int id)
         => await _showRepository.GetByIdAsync(id);

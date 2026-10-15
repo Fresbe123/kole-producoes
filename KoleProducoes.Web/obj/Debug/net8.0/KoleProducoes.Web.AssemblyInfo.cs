@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoleProducoes.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b03c8511805023fb0e23742e5143abab168a877c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoleProducoes.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoleProducoes.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

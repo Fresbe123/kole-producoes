@@ -1,0 +1,63 @@
+﻿@model IEnumerable<KoleProducoes.Domain.Entities.Show>
+
+@{
+    ViewData["Title"] = "Histórico de Shows";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var grouped = Model
+        .GroupBy(s => s.DateTime.Year)
+        .OrderByDescending(g => g.Key);
+}
+
+<section style="padding-top:140px;background:var(--black);min-height:100vh">
+    <div style="padding:0 48px">
+        <div class="hero-eyebrow">Histórico</div>
+        <h1 style="font-family:'Playfair Display',serif;font-size:clamp(2.5rem,6vw,5rem);font-weight:900;line-height:0.95;letter-spacing:-0.02em;margin-top:20px;margin-bottom:60px">
+            Shows<br>
+            <em style="font-style:italic;color:transparent;-webkit-text-stroke:1.5px var(--white)">Realizados</em>
+        </h1>
+
+        @if (Model.Any())
+        {
+            @foreach (var year in grouped)
+            {
+                <div style="margin-bottom:60px">
+                    <div class="section-label">@year.Key</div>
+                    <div class="realizados-list">
+                        @foreach (var show in year.OrderByDescending(s => s.DateTime))
+                        {
+                            <div class="realizado-item fade-up">
+                                <div class="realizado-date">
+                                    <div class="day">@show.DateTime.ToString("dd")</div>
+                                    <div class="month">
+                                        @show.DateTime.ToString("MMM",
+                                        new System.Globalization.CultureInfo("pt-BR"))
+                        </div>
+                    </div>
+                    <div>
+                        <div class="realizado-artist">@show.ArtistName</div>
+                        <div class="realizado-local">
+                            @show.ShowName — @show.Venue, @show.City
+                        </div>
+                        @if (show.Category != null)
+                                    {
+                                        <div style="font-size:0.75rem;color:var(--gray-light);margin-top:4px;font-family:'Barlow Condensed',sans-serif;letter-spacing:0.1em;text-transform:uppercase">
+                                            @show.Category.Name
+                                        </div>
+                                    }
+                                </div>
+                                <div class="realizado-badge">Realizado</div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p style="color:var(--gray-light);padding:60px 0">
+                Nenhum show realizado ainda.
+            </p>
+        }
+    </div>
+</section>

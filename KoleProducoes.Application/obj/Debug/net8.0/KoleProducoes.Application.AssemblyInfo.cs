@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoleProducoes.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b03c8511805023fb0e23742e5143abab168a877c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoleProducoes.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoleProducoes.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
